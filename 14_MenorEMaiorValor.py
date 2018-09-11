@@ -1,4 +1,4 @@
-# QUESTÃO 5 Apresentar o menor e o maior valor iformado
+#Apresentar o menor e o maior valor iformado
 a = int(input('Digite o 1º número. '))
 b = int(input('Digite o 2º número. '))
 c = int(input('Digite o 3º número. '))
@@ -24,9 +24,11 @@ if d >= a and d >= b and d >= c and d >= e:
 if e >= a and e >= b and e >= c and e >= d:
     maior = e
 
-if (a + b + c + d + e) % a != 0:
-    print('O menor valor digitado é: {}'.format(menor))
-    print('O maior valor digitado é: {}'.format(maior))
+if (a == b and a == c and a == d and a == e) and (b == a and b == c and b == d and b == e) \
+        and (c == a and c == b and c == d and c == e) and (d == a and d == b and d == c and d == e) \
+        and (e == a and e == b and e == c and e == d):
+    print('Todos valores são iguais.')
 
 else:
-    print ('Todos valores são iguais.')
+    print('O menor valor digitado é: {}'.format(menor))
+    print('O maior valor digitado é: {}'.format(maior))
