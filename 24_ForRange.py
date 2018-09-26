@@ -34,7 +34,12 @@
 # # for i in range(10, 1, -1):
 # #     print(i)
 # # print('Fogo!')
-# valor_inicial = int(input("Digite o valor inicial: "))
-# for i in range(valor_inicial, -1, -1):
-#     print(i)
-# print('Fogo!')
+#valor_inicial = int(input("Digite o valor inicial: "))
+#for i in range(valor_inicial, -1, -1):
+#    print(i)
+#print('Fogo!')
+
+for i in range(99, 0, -11):
+    print(i, 'Bugs no software,''\n Pegue 11 deles e conserte ') #\nTecle "Ctrl+f5"')
+print ('Sem erros no software! Está estabilizado')
+#print('Vamos fazer mais um café.')
