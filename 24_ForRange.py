@@ -40,6 +40,5 @@
 #print('Fogo!')
 
 for i in range(99, 0, -11):
-    print(i, 'Bugs no software,''\n Pegue 11 deles e conserte ') #\nTecle "Ctrl+f5"')
-print ('Sem erros no software! Está estabilizado')
-#print('Vamos fazer mais um café.')
+    print(i, 'Bugs no software,''\n Pegue 11 deles e conserte ')
+print('Sem erros no software! Está estabilizado')
