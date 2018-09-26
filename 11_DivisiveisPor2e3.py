@@ -19,11 +19,11 @@ elif (n1 % 2 == 0 and n1 % 3 == 0) and (n2 % 2 == 0 and n2 % 3 == 0):
 elif (n1 % 2 == 0 and n1 % 3 == 0) and (n3 % 2 == 0 and n3 % 3 == 0):
     print(n1, n3)
 elif (n1 % 2 == 0 and n1 % 3 == 0) and (n4 % 2 == 0 and n4 % 3 == 0):
-    print(n1,n4)
+    print(n1, n4)
 elif (n2 % 2 == 0 and n2 % 3 == 0) and (n3 % 2 == 0 and n3 % 3 == 0):
-    print(n2,n3)
+    print(n2, n3)
 elif (n2 % 2 == 0 and n2 % 3 == 0) and (n4 % 2 == 0 and n4 % 3 == 0):
-    print(n2,n4)
+    print(n2, n4)
 elif (n3 % 2 == 0 and n3 % 3 == 0) and (n4 % 2 == 0 and n4 % 3 == 0):
     print(n3, n4)
 elif n1 % 2 == 0 and n1 % 3 == 0:
