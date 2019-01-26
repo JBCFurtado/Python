@@ -3,7 +3,12 @@ n1 = int(input(' Digite o valor de n1 : '))
 n2 = int(input(' Digite o valor de n2 : '))
 n3 = int(input(' Digite o valor de n3 : '))
 n4 = int(input(' Digite o valor de n4 : '))
+<<<<<<< HEAD
 if (n1 % 2 == 0 or n1 % 3 == 0) and (n2 % 2 == 0 or n2 % 3== 0) and (n3 % 2 == 0 or n3 % 3 == 0) and (n4 % 2 == 0 or n4 % 3 == 0):
+=======
+if (n1 % 2 == 0 or n1 % 3 == 0) and (n2 % 2 == 0 or n2 % 3 == 0) \
+        and (n3 % 2 == 0 or n3 % 3 == 0) and (n4 % 2 == 0 or n4 % 3 == 0):
+>>>>>>> 0b47cb38e0696d4fe634834e62b39c4eaaadc80f
     print(n1, n2, n3, n4)
 elif (n1 % 2 == 0 or n1 % 3 == 0) and (n2 % 2 == 0 or n2 % 3 == 0) and (n3 % 2 == 0 or n3 % 3 == 0):
     print(n1, n2, n3)
